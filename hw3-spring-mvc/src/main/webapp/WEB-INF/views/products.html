@@ -45,12 +45,14 @@
           <th scope="col">Id</th>
           <th scope="col">Title</th>
           <th scope="col">Cost</th>
+          <th scope="col">Action</th>
         </tr>
         </thead>
         <tbody>
-        <tr th:each="user : ${users}">
-          <th scope="row" th:text="${user.id}">1</th>
-          <td th:text="${user.username}">Alex</td>
+        <tr th:each="product : ${products}">
+          <th scope="row" th:text="${product.id}">1</th>
+          <td th:text="${product.title}">Alex</td>
+          <td th:text="${product.coast}">Alex</td>
           <td>
             <a class="btn btn-success" th:href="@{/user/{id}(id = ${user.id})}"><i class="fas fa-edit"></i></a>
             <a class="btn btn-danger" href="#"><i class="far fa-trash-alt"></i></a>

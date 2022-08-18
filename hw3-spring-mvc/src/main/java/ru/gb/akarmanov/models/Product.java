@@ -8,6 +8,11 @@ public class Product {
   private String title;
   private Double coast;
 
+  public Product(String title, Double coast) {
+    this.title = title;
+    this.coast = coast;
+  }
+
   public UUID getId() {
     return id;
   }

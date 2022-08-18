@@ -3,6 +3,7 @@ package ru.gb.akarmanov.dao;
 import org.springframework.stereotype.Repository;
 import ru.gb.akarmanov.models.Product;
 
+import javax.annotation.PostConstruct;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -12,6 +13,16 @@ import java.util.concurrent.ConcurrentHashMap;
 @Repository
 public class ProductRepositoryImpl implements ProductRepository {
   private final Map<UUID, Product> productMap = new ConcurrentHashMap<>();
+
+  @PostConstruct
+  private void init() {
+    insert(new Product("P-1", 60.0));
+    insert(new Product("P-2", 3620.0));
+    insert(new Product("P-3", 602.0));
+    insert(new Product("P-4", 360.10));
+    insert(new Product("P-5", 160.0));
+    insert(new Product("P-8", 60.0));
+  }
 
   @Override
   public List<Product> findAll() {

@@ -9,12 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cc023dc-4219-4f5c-9093-39be461d6b1d" name="Changes" comment="fix configuration">
-      <change afterPath="$PROJECT_DIR$/hw3-spring-mvc/src/main/java/ru/gb/akarmanov/controllers/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw3-spring-mvc/src/main/java/ru/gb/akarmanov/dao/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw3-spring-mvc/src/main/java/ru/gb/akarmanov/dao/ProductRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw3-spring-mvc/src/main/java/ru/gb/akarmanov/models/Product.java" afterDir="false" />
+    <list default="true" id="4cc023dc-4219-4f5c-9093-39be461d6b1d" name="Changes" comment="HW3: added ProductController.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw3-spring-mvc/src/main/java/ru/gb/akarmanov/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw3-spring-mvc/src/main/java/ru/gb/akarmanov/controllers/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw3-spring-mvc/src/main/java/ru/gb/akarmanov/dao/ProductRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw3-spring-mvc/src/main/java/ru/gb/akarmanov/dao/ProductRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw3-spring-mvc/src/main/java/ru/gb/akarmanov/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw3-spring-mvc/src/main/java/ru/gb/akarmanov/models/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw3-spring-mvc/src/main/webapp/WEB-INF/views/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/hw3-spring-mvc/src/main/webapp/WEB-INF/views/products.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,20 +53,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;5d6e98a55a7e509cb016dceb495b09d0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ru.gb.akarmanov.dao" />
@@ -175,7 +176,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660823914292</updated>
-      <workItem from="1660823915584" duration="4328000" />
+      <workItem from="1660823915584" duration="4749000" />
+      <workItem from="1660829500737" duration="63000" />
+      <workItem from="1660829573090" duration="2671000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1660824197537</created>
@@ -226,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660827126761</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="HW3: added ProductController.java">
+      <created>1660829078684</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1660829078684</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +272,7 @@
     <MESSAGE value="Added html forms" />
     <MESSAGE value="Added configuration" />
     <MESSAGE value="fix configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix configuration" />
+    <MESSAGE value="HW3: added ProductController.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW3: added ProductController.java" />
   </component>
 </project>
