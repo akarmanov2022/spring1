@@ -4,13 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cc023dc-4219-4f5c-9093-39be461d6b1d" name="Changes" comment="Initial hw3">
+    <list default="true" id="4cc023dc-4219-4f5c-9093-39be461d6b1d" name="Changes" comment="Added dependencies">
+      <change afterPath="$PROJECT_DIR$/hw3-spring-mvc/src/main/webapp/WEB-INF/views/product_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw3-spring-mvc/src/main/webapp/WEB-INF/views/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw3-spring-mvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hw3-spring-mvc/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -31,6 +41,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -50,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660823914292</updated>
-      <workItem from="1660823915584" duration="1187000" />
+      <workItem from="1660823915584" duration="1588000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1660824197537</created>
@@ -66,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660824297362</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added dependencies">
+      <created>1660825990588</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1660825990588</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +116,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Initial hw3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial hw3" />
+    <MESSAGE value="Added dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added dependencies" />
   </component>
 </project>
