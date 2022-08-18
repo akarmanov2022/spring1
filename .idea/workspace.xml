@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cc023dc-4219-4f5c-9093-39be461d6b1d" name="Changes" comment="Added dependencies">
-      <change afterPath="$PROJECT_DIR$/hw3-spring-mvc/src/main/webapp/WEB-INF/views/product_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw3-spring-mvc/src/main/webapp/WEB-INF/views/products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw3-spring-mvc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hw3-spring-mvc/pom.xml" afterDir="false" />
+    <list default="true" id="4cc023dc-4219-4f5c-9093-39be461d6b1d" name="Changes" comment="Added html forms">
+      <change afterPath="$PROJECT_DIR$/hw3-spring-mvc/src/main/java/ru/gb/akarmanov/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -61,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1660823914292</updated>
-      <workItem from="1660823915584" duration="1588000" />
+      <workItem from="1660823915584" duration="2207000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1660824197537</created>
@@ -84,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660825990588</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added html forms">
+      <created>1660826544712</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1660826544712</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +123,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Initial hw3" />
     <MESSAGE value="Added dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added dependencies" />
+    <MESSAGE value="Added html forms" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added html forms" />
   </component>
 </project>
