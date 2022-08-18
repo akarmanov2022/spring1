@@ -19,7 +19,7 @@ import org.thymeleaf.templateresolver.ITemplateResolver;
 @Configuration
 @ComponentScan("ru.gb.akarmanov")
 public class AppConfig implements WebMvcConfigurer {
-  private ApplicationContext context;
+  private final ApplicationContext context;
 
   public AppConfig(ApplicationContext context) {
     this.context = context;
