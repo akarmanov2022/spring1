@@ -43,7 +43,10 @@ public class ProductRepositoryImpl implements ProductRepository {
 
   @Override
   public void update(Product product) {
-    productMap.put(product.getId(), product);
+    if (product.getId() != null)
+      productMap.put(product.getId(), product);
+    else
+      insert(product);
   }
 
   @Override

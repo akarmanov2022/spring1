@@ -2,6 +2,7 @@ package ru.gb.akarmanov.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -32,9 +33,20 @@ public class ProductController {
     return "product_form";
   }
 
+  @GetMapping("add")
+  public String addProduct(Model model) {
+    return "product_form";
+  }
+
   @PostMapping
-  public String saveProduct(Product product) {
+  public String updateProduct(Product product) {
     productRepository.update(product);
+    return "redirect:/products";
+  }
+
+  @DeleteMapping("{id}")
+  public String deleteProduct(@PathVariable UUID id) {
+    productRepository.delete(id);
     return "redirect:/products";
   }
 }

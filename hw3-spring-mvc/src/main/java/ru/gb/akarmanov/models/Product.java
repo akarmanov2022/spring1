@@ -13,6 +13,9 @@ public class Product {
     this.coast = coast;
   }
 
+  public Product() {
+  }
+
   public UUID getId() {
     return id;
   }
