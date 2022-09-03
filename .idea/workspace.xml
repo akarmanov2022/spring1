@@ -9,13 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cc023dc-4219-4f5c-9093-39be461d6b1d" name="Changes" comment="HW3: added ProductController.java">
-      <change afterPath="$PROJECT_DIR$/hw4-spring-boot/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw4-spring-boot/src/main/java/ru/gb/spring1/Hw4Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="4cc023dc-4219-4f5c-9093-39be461d6b1d" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/hw4-spring-boot/src/main/java/ru/gb/spring1/models/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw4-spring-boot/src/main/java/ru/gb/spring1/models/controllers/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw4-spring-boot/src/main/java/ru/gb/spring1/models/dao/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw4-spring-boot/src/main/java/ru/gb/spring1/models/dao/ProductRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw4-spring-boot/src/main/resources/templates/product_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw4-spring-boot/src/main/resources/templates/products.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +69,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "D:/Workspace/gb/spring1/hw4-spring-boot/src/main/java/ru/gb/spring1/models",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
@@ -82,8 +83,9 @@
       <recent name="ru.gb.akarmanov.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Workspace\gb\spring1\hw4-spring-boot\src\main\java\ru\gb\akarmanov\hw4springboot" />
+      <recent name="D:\Workspace\gb\spring1\hw4-spring-boot\src\main\java\ru\gb\spring1\models" />
       <recent name="D:\Workspace\gb\spring1\hw4-spring-boot\src\main\resources\templates" />
+      <recent name="D:\Workspace\gb\spring1\hw4-spring-boot\src\main\java\ru\gb\akarmanov\hw4springboot" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Workspace\gb\spring1\hw3-spring-mvc\src\main\resources\static" />
@@ -92,6 +94,8 @@
       <recent name="D:\Workspace\gb\spring1\hw3-spring-mvc\src\main\webapp" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ru.gb.spring1.models.controllers" />
+      <recent name="ru.gb.spring1.models" />
       <recent name="ru.gb.akarmanov.hw4springboot.controllers" />
       <recent name="ru.gb.akarmanov.hw4springboot.models" />
     </key>
@@ -292,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662210566148</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Initial commit">
+      <created>1662212035622</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1662212035622</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,8 +339,8 @@
     <MESSAGE value="Added configuration" />
     <MESSAGE value="fix configuration" />
     <MESSAGE value="HW3: added ProductController.java" />
-    <MESSAGE value="Initial commit" />
     <MESSAGE value="Added Product model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Product model" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
