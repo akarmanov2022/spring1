@@ -55,11 +55,9 @@
           <td th:text="${product.coast}">Alex</td>
           <td>
             <a class="btn btn-success" th:href="@{/products/{id}(id = ${product.id})}"><i class="fas fa-edit"></i></a>
-            <a class="btn btn-danger" th:method="delete" th:action="@{/products/{id}(id = ${product.id})}">
-              <i class="far fa-trash-alt">
-
-              </i>
-            </a>
+            <form class="d-inline" th:method="delete" th:action="@{/products/{id}(id = ${product.id})}">
+              <button class="btn btn-danger"><i class="far fa-trash-alt"></i></button>
+            </form>
           </td>
         </tr>
         </tbody>
