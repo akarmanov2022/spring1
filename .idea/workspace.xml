@@ -9,13 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cc023dc-4219-4f5c-9093-39be461d6b1d" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/hw4-spring-boot/src/main/java/ru/gb/spring1/models/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw4-spring-boot/src/main/java/ru/gb/spring1/models/controllers/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw4-spring-boot/src/main/java/ru/gb/spring1/models/dao/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw4-spring-boot/src/main/java/ru/gb/spring1/models/dao/ProductRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw4-spring-boot/src/main/resources/templates/product_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw4-spring-boot/src/main/resources/templates/products.html" afterDir="false" />
+    <list default="true" id="4cc023dc-4219-4f5c-9093-39be461d6b1d" name="Changes" comment="HW3: added ProductController.java">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw5-hibernate/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw5-hibernate/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw5-hibernate/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +39,20 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -75,7 +91,12 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "spring.configuration.checksum": "5d6e98a55a7e509cb016dceb495b09d0"
+    "spring.configuration.checksum": "bf837c5d1fd96204d3fc9fa836fe8089"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -218,6 +239,7 @@
       <workItem from="1660823915584" duration="4749000" />
       <workItem from="1660829500737" duration="63000" />
       <workItem from="1660829573090" duration="5265000" />
+      <workItem from="1662690441677" duration="872000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1660824197537</created>
