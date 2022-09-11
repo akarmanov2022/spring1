@@ -9,15 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cc023dc-4219-4f5c-9093-39be461d6b1d" name="Changes" comment="HW3: added ProductController.java">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw5-hibernate/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw5-hibernate/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw5-hibernate/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="4cc023dc-4219-4f5c-9093-39be461d6b1d" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw5-hibernate/src/main/java/ru/gb/akarmanov/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw5-hibernate/src/main/java/ru/gb/akarmanov/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw5-hibernate/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hw5-hibernate/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,12 +84,14 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_directory_selection": "D:/Workspace/gb/spring1/hw5-hibernate/src/main/java/ru/gb/akarmanov",
     "last_opened_file_path": "D:/Workspace/gb/spring1/hw4-spring-boot/src/main/java/ru/gb/spring1/models",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.tabs",
     "spring.configuration.checksum": "bf837c5d1fd96204d3fc9fa836fe8089"
   },
   "keyToStringList": {
@@ -121,7 +122,33 @@
       <recent name="ru.gb.akarmanov.hw4springboot.models" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Hw4Application">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.gb.akarmanov.Main" />
+      <module name="hw5-hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.gb.akarmanov.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="spring1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="spring1" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Hw4Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="hw4-spring-boot" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ru.gb.spring1.Hw4Application" />
@@ -224,6 +251,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Spring Boot.Hw4Application" />
       </list>
     </recent_temporary>
