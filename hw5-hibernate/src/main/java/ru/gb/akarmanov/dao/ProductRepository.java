@@ -20,7 +20,7 @@ public class ProductRepository implements EntityRepository<Product> {
     EntityManager em = entityManagerFactory.createEntityManager();
     List<Product> products = em.createQuery("SELECT p FROM Product p", Product.class)
         .getResultList();
-    entityManagerFactory.close();
+    em.close();
     return products;
   }
 
@@ -28,7 +28,7 @@ public class ProductRepository implements EntityRepository<Product> {
   public Product findById(Long id) {
     EntityManager em = entityManagerFactory.createEntityManager();
     Product product = em.find(Product.class, id);
-    entityManagerFactory.close();
+    em.close();
     return product;
   }
 
@@ -39,7 +39,7 @@ public class ProductRepository implements EntityRepository<Product> {
     Product product = findById(id);
     em.remove(product);
     em.getTransaction().commit();
-    entityManagerFactory.close();
+    em.close();
   }
 
   @Override
@@ -55,7 +55,7 @@ public class ProductRepository implements EntityRepository<Product> {
       em.getTransaction().commit();
     }
     Optional<Product> productOptional = Optional.of(em.find(Product.class, product.getId()));
-    entityManagerFactory.close();
+    em.close();
     return productOptional;
   }
 }
