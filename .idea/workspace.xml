@@ -10,9 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cc023dc-4219-4f5c-9093-39be461d6b1d" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/hw5-hibernate/src/main/java/ru/gb/akarmanov/dao/EntityRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw5-hibernate/src/main/java/ru/gb/akarmanov/dao/ProductRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw5-hibernate/src/main/java/ru/gb/akarmanov/dao/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw5-hibernate/src/main/java/ru/gb/akarmanov/dao/ProductRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,30 +72,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "last_directory_selection": "D:/Workspace/gb/spring1/hw5-hibernate/src/main/java/ru/gb/akarmanov",
-    "last_opened_file_path": "D:/Workspace/gb/spring1/hw4-spring-boot/src/main/java/ru/gb/spring1/models",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.tabs",
-    "spring.configuration.checksum": "bf837c5d1fd96204d3fc9fa836fe8089"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;last_directory_selection&quot;: &quot;D:/Workspace/gb/spring1/hw5-hibernate/src/main/java/ru/gb/akarmanov&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Workspace/gb/spring1/hw4-spring-boot/src/main/java/ru/gb/spring1/models&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;bf837c5d1fd96204d3fc9fa836fe8089&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ru.gb.akarmanov.dao" />
