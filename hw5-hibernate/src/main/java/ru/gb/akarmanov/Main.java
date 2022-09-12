@@ -13,13 +13,6 @@ public class Main {
         .buildSessionFactory();
 
     EntityManager em = sessionFactory.createEntityManager();
-
-    em.getTransaction().begin();
-
-    em.persist(new Product("p1", 100));
-
-    em.getTransaction().commit();
-
     em.close();
   }
 }

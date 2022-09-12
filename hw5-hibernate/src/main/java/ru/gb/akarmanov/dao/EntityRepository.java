@@ -8,9 +8,10 @@ import java.util.Optional;
 public interface EntityRepository<T> {
   List<T> findAll();
 
-  Optional<Product> findById(Long id);
+  Optional<T> findById(Long id);
 
   void deleteById(Long id);
 
-  Optional<Product> saveOrUpdate(T product);
+  Optional<T> saveOrUpdate(T product);
+
 }

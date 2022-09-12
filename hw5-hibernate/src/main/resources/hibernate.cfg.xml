@@ -17,5 +17,6 @@
     <property name="hibernate.format_sql">true</property>
 
     <mapping class="ru.gb.akarmanov.model.Product"/>
+    <mapping class="ru.gb.akarmanov.model.Customer"/>
   </session-factory>
 </hibernate-configuration>
