@@ -10,9 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4cc023dc-4219-4f5c-9093-39be461d6b1d" name="Changes" comment="Исправления в ProductRepository.java">
+      <change afterPath="$PROJECT_DIR$/hw5-hibernate/src/main/java/ru/gb/akarmanov/model/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw5-hibernate/src/main/java/ru/gb/akarmanov/dao/EntityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw5-hibernate/src/main/java/ru/gb/akarmanov/dao/EntityRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw5-hibernate/src/main/java/ru/gb/akarmanov/dao/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw5-hibernate/src/main/java/ru/gb/akarmanov/dao/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw5-hibernate/src/main/java/ru/gb/akarmanov/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw5-hibernate/src/main/java/ru/gb/akarmanov/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw5-hibernate/src/main/java/ru/gb/akarmanov/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw5-hibernate/src/main/java/ru/gb/akarmanov/model/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +32,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="hw5" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,12 +40,14 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
         <entry key="com.haulmont.jpb.jpaPalette" value="true" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
         <entry key="com.haulmont.jpb.jpaPalette" value="false" />
         <entry key="com.haulmont.jpb.jpaStructure" value="true" />
       </map>
@@ -255,7 +258,7 @@
       <workItem from="1660829573090" duration="5265000" />
       <workItem from="1662690441677" duration="872000" />
       <workItem from="1662904610400" duration="73000" />
-      <workItem from="1662988747368" duration="808000" />
+      <workItem from="1662988747368" duration="2298000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1660824197537</created>
@@ -362,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662904656796</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Исправления в ProductRepository.java">
+      <created>1662989579035</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1662989579035</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
