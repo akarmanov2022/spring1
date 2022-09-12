@@ -9,12 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4cc023dc-4219-4f5c-9093-39be461d6b1d" name="Changes" comment="Добавил модель Customer.">
-      <change afterPath="$PROJECT_DIR$/hw5-hibernate/src/main/java/ru/gb/akarmanov/dao/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw5-hibernate/src/main/java/ru/gb/akarmanov/dao/EntityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw5-hibernate/src/main/java/ru/gb/akarmanov/dao/EntityRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw5-hibernate/src/main/java/ru/gb/akarmanov/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw5-hibernate/src/main/java/ru/gb/akarmanov/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw5-hibernate/src/main/java/ru/gb/akarmanov/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw5-hibernate/src/main/java/ru/gb/akarmanov/model/Product.java" afterDir="false" />
+    <list default="true" id="4cc023dc-4219-4f5c-9093-39be461d6b1d" name="Changes" comment="Добавил dao CustomerRepository.">
+      <change afterPath="$PROJECT_DIR$/hw5-hibernate/src/main/java/ru/gb/akarmanov/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw5-hibernate/src/main/java/ru/gb/akarmanov/dao/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/hw5-hibernate/src/main/java/ru/gb/akarmanov/dao/ProductRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +128,7 @@
       <module name="hw5-hibernate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.gb.akarmanov.*" />
+          <option name="PATTERN" value="ru.gb.akarmanov.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -259,7 +256,7 @@
       <workItem from="1660829573090" duration="5265000" />
       <workItem from="1662690441677" duration="872000" />
       <workItem from="1662904610400" duration="73000" />
-      <workItem from="1662988747368" duration="3178000" />
+      <workItem from="1662988747368" duration="4720000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1660824197537</created>
@@ -380,7 +377,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662993032026</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Добавил dao CustomerRepository.">
+      <created>1662993821807</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1662993821807</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,6 +425,7 @@
     <MESSAGE value="Добавил ProductRepository.java" />
     <MESSAGE value="Исправления в ProductRepository.java" />
     <MESSAGE value="Добавил модель Customer." />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил модель Customer." />
+    <MESSAGE value="Добавил dao CustomerRepository." />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил dao CustomerRepository." />
   </component>
 </project>

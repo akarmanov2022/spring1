@@ -1,5 +1,6 @@
 package ru.gb.akarmanov.dao;
 
+import ru.gb.akarmanov.model.Customer;
 import ru.gb.akarmanov.model.Product;
 
 import javax.persistence.EntityManager;
@@ -25,6 +26,11 @@ public class ProductRepository implements EntityRepository<Product> {
   public Optional<Product> findById(Long id) {
     Product product = executeInEntityManager(em -> em.find(Product.class, id));
     return Optional.of(product);
+  }
+
+  public List<Product> findAllByCustomerId(Long id) {
+    Customer customer = executeInEntityManager(em -> em.find(Customer.class, id));
+    return customer.getProducts();
   }
 
   @Override
