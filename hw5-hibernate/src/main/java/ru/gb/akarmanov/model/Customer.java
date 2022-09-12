@@ -2,6 +2,7 @@ package ru.gb.akarmanov.model;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -17,7 +18,10 @@ public class Customer {
   private Long id;
   private String name;
 
-  @OneToMany(cascade = CascadeType.ALL, mappedBy = "customer")
+  @OneToMany(
+      cascade = CascadeType.ALL,
+      mappedBy = "customer",
+      fetch = FetchType.EAGER)
   private List<Product> products;
 
   public Long getId() {
